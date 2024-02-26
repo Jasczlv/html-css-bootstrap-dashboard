@@ -10,22 +10,38 @@
 </head>
 <body>
     <nav class="bg-primary">
-        <div class="container-fluid justify-content-between">
-            <div class="row py-3">
+        <div class="container-fluid">
+            <div class="row py-2 justify-content-between align-items-center">
                 <div class="col-auto">Boolean</div>
-                <div class="col-auto d-flex flex-grow-1">
-                        <input type="search" name="" id="" class="flex-grow-1" placeholder="Prova a cercare lezioni di Laravel">
+                <div class="col d-flex flex-grow-1">
+                        <input type="search" name="" id="" class="flex-grow-1 p-1" placeholder="Prova a cercare lezioni di Laravel">
                 </div>
                 <div class="col-auto d-flex gap-3">
-                    <div class="nav-items">a</div>
-                    <div class="nav-items">b</div>
-                    <div class="nav-items">c</div>
+                    <div class="nav-items d-none d-lg-block">a</div>
+                    <div class="nav-items d-none d-lg-block">b</div>
+                    <div class="nav-items d-none d-lg-block">c</div>
                     <div class="nav-items">d</div>
                 </div>
             </div>
         </div>
     </nav>
-
+    <main>
+        <section class="sidebar">
+            <div class="sidebar-container bg-secondary">
+                <div class="d-flex flex-column">
+                    <div>
+                        Home
+                    </div>
+                    <div>
+                        Stats
+                    </div>
+                    <div>
+                        Signals
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
