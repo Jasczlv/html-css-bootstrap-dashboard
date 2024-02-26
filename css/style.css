@@ -2,23 +2,34 @@
     --sidebar-width: 150px;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main.d-flex {
+    flex-grow: 1;
 }
 
 .sidebar {
+    width: var(--sidebar-width);
+    max-width: calc(var(--sidebar-width) / 2);
+}
+
+.sidebar-container , .sidebar {
     height: 100%;
 }
 
-.sidebar-container {
-    max-width: calc(var(--sidebar-width) / 2);
+.admin {
+    margin-top: auto;
+    margin-bottom: 10px;
 }
 
 
 @media (min-width: 992px){
     
-    .sidebar-container {
+    .sidebar {
         max-width: var(--sidebar-width);
     }
 
