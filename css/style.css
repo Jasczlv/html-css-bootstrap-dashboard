@@ -48,13 +48,13 @@ nav > .container-fluid {
 .bg-sidebar {
     background-color: #051e34;
     background-image: url(../img/sidebar-bg.png);
+    background-repeat: no-repeat;
 }
 
 .admin {
     margin-top: auto;
     margin-bottom: 10px;
 }
-
 
 
 /* main content */
@@ -90,6 +90,10 @@ nav > .container-fluid {
     
     .sidebar {
         max-width: var(--sidebar-width);
+    }
+
+    div.offcanvas.offcanvas-start {
+        width: 600px;
     }
 
   }
