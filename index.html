@@ -10,9 +10,11 @@
 </head>
 <body>
     <div class="app">
-        <nav class="bg-primary">
-            <div class="container-fluid">
-                <div class="row py-2 justify-content-between align-items-center">
+
+        <!-- sezione navbar -->
+        <nav class="bg-nav text-ligh">
+            <div class="container-fluid py-2 d-flex">
+                <div class="row justify-content-between align-items-center navbar-container">
                     <div class="col-auto">Boolean</div>
                     <div class="col d-flex flex-grow-1">
                             <input type="search" name="" id="" class="flex-grow-1 p-1" placeholder="Prova a cercare lezioni di Laravel">
@@ -26,9 +28,13 @@
                 </div>
             </div>
         </nav>
+
+        <!-- sezione principale -->
         <main class="d-flex">
+
+            <!-- sidebar -->
             <section>
-                <div class="sidebar bg-secondary">
+                <div class="sidebar bg-sidebar text-light">
                     <div class="d-flex flex-column sidebar-container pt-3 align-items-center gap-2">
                         <div>
                             Home
@@ -44,12 +50,19 @@
                         </div>
                     </div>
                 </div>
+                
             </section>
+
+            <!-- sezione contenuto -->
             <section>
                 
             </section>
+
         </main>
     </div>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

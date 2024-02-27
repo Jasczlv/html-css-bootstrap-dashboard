@@ -2,6 +2,9 @@
     --sidebar-width: 150px;
 }
 
+input {
+}
+
 .app {
     height: 100vh;
     display: flex;
@@ -19,6 +22,26 @@ main.d-flex {
 
 .sidebar-container , .sidebar {
     height: 100%;
+}
+
+.navbar-container {
+    background-color: white;
+    width: 100%;
+}
+
+.bg-nav {
+    background-color:#f8f9fa;
+}
+
+nav > .container-fluid {
+    height: 70px;
+    align-items: center;
+}
+
+
+.bg-sidebar {
+    background-color: #051e34;
+    background-image: url(../img/sidebar-bg.png);
 }
 
 .admin {
