@@ -12,6 +12,10 @@ input {
 }
 
 
+ul, ol, li {
+    list-style: none;
+}
+
 /* sidebar & navbar */
 main.d-flex {
     flex-grow: 1;
