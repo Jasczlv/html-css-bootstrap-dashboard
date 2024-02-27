@@ -83,7 +83,9 @@ nav > .container-fluid {
     border-top: none;
 }
 
-
+.offcanvas-body form .d-flex {
+    flex-wrap: wrap;
+}
 
 /* media queries */
 @media (min-width: 992px){
